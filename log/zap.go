@@ -52,8 +52,8 @@ func zapConfig(debugMode bool) zap.Config {
 	return cfg
 }
 
-// NewZapLogger initiate a new zap logger
-func NewZapLogger(cmdName string, debugMode bool) (*ZapLogger, error) {
+// New initiate a new zap logger
+func New(cmdName string, debugMode bool) (*ZapLogger, error) {
 	withFields := zap.Fields(zap.String("command", cmdName))
 
 	logger, err := zapConfig(debugMode).Build(withFields, zap.AddCallerSkip(1))
