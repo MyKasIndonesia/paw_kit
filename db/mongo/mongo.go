@@ -46,3 +46,16 @@ func (mc *Client) Check() error {
 	}
 	return nil
 }
+
+// IsDupKeyErr ...
+func IsDupKeyErr(err error) bool {
+	var e mgo.WriteException
+	if errors.As(err, &e) {
+		for _, we := range e.WriteErrors {
+			if we.Code == 11000 {
+				return true
+			}
+		}
+	}
+	return false
+}
