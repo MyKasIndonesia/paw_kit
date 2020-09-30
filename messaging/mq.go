@@ -2,7 +2,7 @@ package messaging
 
 import (
 	"context"
-	"github.com/PAWSOME-INDONESIA/paw_kit/util"
+	"github.com/MyKasIndonesia/paw_kit/util"
 )
 
 type CallbackFunc func([]byte) error

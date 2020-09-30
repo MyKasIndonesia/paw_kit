@@ -2,8 +2,8 @@ package kafka
 
 import (
 	"context"
-	"github.com/PAWSOME-INDONESIA/paw_kit/log"
-	"github.com/PAWSOME-INDONESIA/paw_kit/messaging"
+	"github.com/MyKasIndonesia/paw_kit/log"
+	"github.com/MyKasIndonesia/paw_kit/messaging"
 	"github.com/pkg/errors"
 	kfk "github.com/segmentio/kafka-go"
 	"github.com/segmentio/kafka-go/gzip"

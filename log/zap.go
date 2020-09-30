@@ -3,7 +3,7 @@ package log
 import (
 	"context"
 
-	pawctx "github.com/PAWSOME-INDONESIA/paw_kit/ctx"
+	pawctx "github.com/MyKasIndonesia/paw_kit/ctx"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

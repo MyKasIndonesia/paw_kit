@@ -1,8 +1,8 @@
 package kafka_sarama
 
 import (
-	"github.com/PAWSOME-INDONESIA/paw_kit/log"
-	"github.com/PAWSOME-INDONESIA/paw_kit/messaging"
+	"github.com/MyKasIndonesia/paw_kit/log"
+	"github.com/MyKasIndonesia/paw_kit/messaging"
 	"sync"
 	"time"
 

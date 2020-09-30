@@ -2,8 +2,8 @@
 package mw
 
 import (
-	pawctx "github.com/PAWSOME-INDONESIA/paw_kit/ctx"
-	pawgen "github.com/PAWSOME-INDONESIA/paw_kit/gen"
+	pawctx "github.com/MyKasIndonesia/paw_kit/ctx"
+	pawgen "github.com/MyKasIndonesia/paw_kit/gen"
 	"github.com/labstack/echo"
 )
 

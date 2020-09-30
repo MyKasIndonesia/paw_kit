@@ -2,7 +2,7 @@ package kafka_sarama
 
 import (
 	"context"
-	"github.com/PAWSOME-INDONESIA/paw_kit/messaging"
+	"github.com/MyKasIndonesia/paw_kit/messaging"
 )
 
 func (l *Kafka) AddTopicListener(topic string, callback messaging.CallbackFunc) {
